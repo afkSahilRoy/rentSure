@@ -1,0 +1,24 @@
+# Environment variables
+.env
+.env.*
+.env.local
+server/.env
+client/.env
+
+# Dependencies
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Production build
+client/dist/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor directories
+.vscode/
+.idea/
+.DS_Store
